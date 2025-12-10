@@ -1,1 +1,2 @@
-# Rainha_da_sofr-ncia
+# Rainha_da_sofrência
+Este site reúne minhas músicas favoritas da cantora e compositora Marília Mendonça, apresentando ano de lançamento, gênero musical, curiosidades, trechos marcantes e o que cada canção representa para mim. Além disso, o site contará com uma seção especial dedicada à artista, destacando sua influência, seu estilo marcante e o papel fundamental que ela desempenhou na músuca brasileira.
