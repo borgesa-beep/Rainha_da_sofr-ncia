@@ -7,7 +7,74 @@
 </head>
 <style>
     body{
-        background-color: rgb(243, 145, 65);
+        background-color: rgb(247, 233, 188);
+    }
+
+    header{
+        width: 380px;
+        height: 80px;
+        text-align: center;
+    }
+
+    header h1{
+        margin: 0;
+        font-size: 32px;
+    }
+
+    header h3{
+        margin: 2px;
+        font-size: 17px;
+    }
+
+    .busca{
+       padding: 20px;
+    }
+
+    .busca input[type="texto"]{
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .filtros{
+        margin-top: 10px;
+    }
+
+    .filtros label{
+        margin-top: 15px;
+    }
+    
+    .sobre-imagem{
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .sobre-imagem img{
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .musica{
+        padding: 20px;
+       
+    }
+
+    .musica ul{
+        list-style: none;
+        padding: 0;
+    }
+
+    .musica li{
+        background-color: #faf2e7;
+        padding: 10px;
+        margin-bottom: 8px;
+        border-radius: 8px;
+    }
+
+    p1{
+        font-style: normal;
+        font-size: 20px;
     }
 
     #for{
@@ -16,13 +83,65 @@
     }
 </style>
 <body>
-    <form id="for">
-        <label for="nome">Nome da música</label> <br>
-        <label for="ano">Ano de lançamento</label><br>
-        <label for="genero">Gênero</label><br>
-        <label for="descricao">Descrição / curiosidade</label><br>
-        <label for="trecho">Trecho marcante</label><br>
-        <label for="representa">O que a canção representa para mim</label>
-    </form>
+    <header>
+       <h3>MINHAS MÚSICAS PREFERIDAS</h3>
+       <h1>MARÍLIA MENDONÇA</h1>
+    </header> 
+
+    <section class="busca">
+        <h3>Buscar música</h3>
+        <input type="text" placeholder="Buscar...">
+
+        <div class="filtros"> 
+            <p2>Filtrar por:  </p2>
+            <label><input type="checkbox"> Romântico</label>
+            <label><input type="checkbox"> Sofrência</label>
+        </div>
+    </section>
+    
+    <section class="sobre-imagem">
+        <img src="Marilia-Mendonca.jpg" alt="foto da Marília">
+    </section>
+
+    <section class="musica">
+        <h3>Lista de música</h3>
+    <br>
+        <ul>
+            <li>
+                <strong>
+                    <a href="https://open.spotify.com/intl-pt/track/4X76i15ANs7rr70xcUn0Ru?si=78e1bbdf065f4c03" target="_blank" rel="noopener noreferrer">Não vou namorar</a> <br>
+                        <label for="nome">Nome da música</label> <br>
+                        <label for="ano">Ano de lançamento</label><br>
+                        <label for="genero">Gênero</label><br>
+                        <label for="descricao">Descrição / curiosidade</label><br>
+                        <label for="trecho">Trecho marcante</label><br>
+                        <label for="representa">O que a canção representa para mim</label>
+                </strong>
+            </li>
+            <li>
+                <strong>
+                    <a href="https://open.spotify.com/intl-pt/track/4X76i15ANs7rr70xcUn0Ru?si=78e1bbdf065f4c03" target="_blank" rel="noopener noreferrer">Não vou namorar</a> <br>
+                        <label for="nome">Nome da música</label> <br>
+                        <label for="ano">Ano de lançamento</label><br>
+                        <label for="genero">Gênero</label><br>
+                        <label for="descricao">Descrição / curiosidade</label><br>
+                        <label for="trecho">Trecho marcante</label><br>
+                        <label for="representa">O que a canção representa para mim</label>
+                </strong>
+            </li>
+            <li>
+                <strong>
+                    <a href="https://open.spotify.com/intl-pt/track/4X76i15ANs7rr70xcUn0Ru?si=78e1bbdf065f4c03" target="_blank" rel="noopener noreferrer">Não vou namorar</a> <br>
+                        <label for="nome">Nome da música</label> <br>
+                        <label for="ano">Ano de lançamento</label><br>
+                        <label for="genero">Gênero</label><br>
+                        <label for="descricao">Descrição / curiosidade</label><br>
+                        <label for="trecho">Trecho marcante</label><br>
+                        <label for="representa">O que a canção representa para mim</label>
+                </strong>
+            </li>
+        </ul>
+
+    </section>
 </body>
 </html>
