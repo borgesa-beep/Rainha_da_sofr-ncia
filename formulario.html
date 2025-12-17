@@ -4,27 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Marília Mendonça</title>
 </head>
 <style>
     body {
-        background-color: rgb(247, 233, 188);
+        background-color: rgb(255, 224, 129);
+        font-family: "Poppins", sans-serif;
+    }
+
+    .container {
+        background-image: url(IMG_2557.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px;
+        border-radius: 20px;
+        border: 3px solid #d4aa73;
+        display: flex;
     }
 
     header {
-        width: 80%;
-        height: 100px;
+        width: 380px;
+        height: 80px;
         text-align: center;
     }
 
     header h1 {
         margin: 0;
-        font-size: 50px;
+        font-size: 32px;
     }
 
     header h3 {
         margin: 2px;
-        font-size: 32px;
+        font-size: 17px;
     }
 
     .busca {
@@ -49,19 +60,22 @@
     .sobre-imagem {
         text-align: center;
         margin: 20px;
-        background-color: antiquewhite;
+        background-color: rgb(255, 209, 149);
         width: 20%;
         display: flex;
         flex-direction: column;
         height: 100%;
+        border-radius: 20px;
     }
-    .sobre-imagem p{
+
+    .sobre-imagem p {
         margin: 20px;
     }
 
     .sobre-imagem img {
-        width: 100%;
-        border-radius: 10px;
+        width: 250px;
+        border-radius: 15px;
+        border: 2px;
     }
 
     .musica {
@@ -88,22 +102,32 @@
         <h1>MARÍLIA MENDONÇA</h1>
     </header>
 
-    <section class="busca">
-        <h3>Buscar música</h3>
-        <input type="text" placeholder="Buscar...">
+    <div class="container py-4">
+        <section class="busca">
+            <h3>Buscar música</h3>
+            <input type="text" placeholder="Buscar...">
 
-        <div class="filtros">
-            <p2>Filtrar por: </p2>
-            <label><input type="radio"> Romântico</label>
-            <label><input type="radio"> Sofrência</label>
-        </div>
-    </section>
+            <div class="filtros">
+                <p2>Filtrar por: </p2>
+                <label><input type="checkbox"> Romântico</label>
+                <label><input type="checkbox"> Sofrência</label>
+            </div>
+            <br>
+            <div class="plataforma">
+                <p2>escutar pelo:</p2>
+                <label><input type="radio">Spotfy</label>
+                <label><input type="radio">Youtube</label>
+            </div>
+        </section>
 
-    <div class="sobre-imagem">
-        <img src="Marilia-Mendonca.jpg" alt="foto da Marília">
-        <p>Este site reúne minhas músicas favoritas da cantora e compositora Marília Mendonça, apresentando ano de lançamento, gênero musical, curiosidades, trechos marcantes e o que cada canção representa para mim. Além disso, o site contará com uma seção especial dedicada à artista, destacando sua influência, seu estilo marcante e o papel fundamental que ela desempenhou na músuca brasileira.</p>
+        <section class="sobre-imagem">
+            <img src="IMG_2558.JPG" alt="foto da Marília">
+            <p>Este site reúne minhas músicas favoritas da cantora e compositora Marília Mendonça, apresentando ano de
+                lançamento, gênero musical, curiosidades, trechos marcantes e o que cada canção representa para mim.
+                Além disso, o site contará com uma seção especial dedicada à artista, destacando sua influência, seu
+                estilo marcante e o papel fundamental que ela desempenhou na músuca brasileira.</p>
+        </section>
     </div>
-
     <section class="musica">
         <h3>Lista de música</h3>
         <br>
@@ -111,8 +135,7 @@
             <li>
                 <strong>
                     <a href="https://open.spotify.com/intl-pt/track/4X76i15ANs7rr70xcUn0Ru?si=78e1bbdf065f4c03"
-                        target="_blank" rel="noopener noreferrer"><span style="color: black;"> vou namorar</span></a>
-                    <br>
+                        target="_blank" rel="noopener noreferrer"></a><span style="color: black;"> vou namorar</span></a><br>
                     <label for="nome">Nome da música</label> <br>
                     <label for="ano">Ano de lançamento</label><br>
                     <label for="genero">Gênero</label><br>
